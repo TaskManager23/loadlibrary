@@ -1,0 +1,3 @@
+		local function LoadLibrary(x)
+        return require(game:GetService("ReplicatedStorage"):WaitForChild("LoadLibrary"):FindFirstChild(x))
+        end
